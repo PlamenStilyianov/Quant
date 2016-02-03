@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/randomnumbers
+END
+RandomNumberTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/randomnumbers/RandomNumberTest.java
+END
+MersenneTwisterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/jquant/!svn/ver/1158/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/randomnumbers/MersenneTwisterTest.java
+END

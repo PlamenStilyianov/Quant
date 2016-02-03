@@ -1,0 +1,12 @@
+What is JQuantLib?
+
+		JQuantLib is a free, open-source and comprehensive framework for quantitative finance, offering
+		several mathematical and statistical tools needed for financial instrument valuation, calculation
+		of VaR, portfolio valuation, etc. It is written in Java and is based on QuantLib, which is written
+		in C++ and is a <de-facto> reference implementation for C++ world.
+		
+		JQuantLib does its best efforts to mimic as close as possible the API exposed by QuantLib,
+		offering a smooth transition path for developers and organizations willing to employ financial
+		applications written in Java whilst keeping commitment to high performance and low latency.
+		
+		For more information, please visit {{{http://www.jquantlib.org}http://www.jquantlib.org}}

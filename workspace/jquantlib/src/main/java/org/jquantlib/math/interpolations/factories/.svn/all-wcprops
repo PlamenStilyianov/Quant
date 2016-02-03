@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories
+END
+BackwardFlat.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/BackwardFlat.java
+END
+Bilinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/Bilinear.java
+END
+Cubic.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/Cubic.java
+END
+LogCubic.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/LogCubic.java
+END
+Linear.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/Linear.java
+END
+BicubicSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/BicubicSpline.java
+END
+ForwardFlat.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/ForwardFlat.java
+END
+LogLinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/interpolations/factories/LogLinear.java
+END

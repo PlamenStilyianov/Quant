@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1315/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/math/randomnumbers
+END
+SFMTUniformRng.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/jquant/!svn/ver/831/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/math/randomnumbers/SFMTUniformRng.java
+END
+UniformRng_0_1.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/jquant/!svn/ver/831/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/math/randomnumbers/UniformRng_0_1.java
+END
+UniformRng.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/jquant/!svn/ver/831/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/math/randomnumbers/UniformRng.java
+END
+SampleGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/jquant/!svn/ver/831/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/math/randomnumbers/SampleGenerator.java
+END
+SeedableWithInts.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/831/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/math/randomnumbers/SeedableWithInts.java
+END

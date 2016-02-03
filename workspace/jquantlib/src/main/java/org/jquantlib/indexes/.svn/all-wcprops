@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/indexes
+END
+InterestRateIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/indexes/InterestRateIndex.java
+END
+Euribor365_1M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_1M.java
+END
+EURLibor11M.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor11M.java
+END
+Euribor365_3M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_3M.java
+END
+Euribor365_5M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_5M.java
+END
+Euribor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1423/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor.java
+END
+Euribor365_7M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_7M.java
+END
+EuriborSwapIfrFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EuriborSwapIfrFix.java
+END
+Euribor365_9M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_9M.java
+END
+DailyTenorEURLiborON.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1426/trunk/jquantlib/src/main/java/org/jquantlib/indexes/DailyTenorEURLiborON.java
+END
+YoYInflationIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/YoYInflationIndex.java
+END
+Euribor365_2W.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_2W.java
+END
+Euribor365_1Y.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_1Y.java
+END
+EURLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/1423/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor.java
+END
+UsdLiborSwapIsdaFixPm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/UsdLiborSwapIsdaFixPm.java
+END
+EurLiborSwapIsdaFixB.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EurLiborSwapIsdaFixB.java
+END
+JpyLiborSwapIsdaFixPm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/JpyLiborSwapIsdaFixPm.java
+END
+ChfLiborSwapIsdaFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1433/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ChfLiborSwapIsdaFix.java
+END
+IndexManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/indexes/IndexManager.java
+END
+Euribor2M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor2M.java
+END
+Euribor4M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor4M.java
+END
+Euribor6M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor6M.java
+END
+EuriborSwapIsdaFixA.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EuriborSwapIsdaFixA.java
+END
+Euribor8M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor8M.java
+END
+DailyTenorEURLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1426/trunk/jquantlib/src/main/java/org/jquantlib/indexes/DailyTenorEURLibor.java
+END
+Euribor3W.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor3W.java
+END
+EURLibor2M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor2M.java
+END
+IborIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1425/trunk/jquantlib/src/main/java/org/jquantlib/indexes/IborIndex.java
+END
+Euribor365_11M.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_11M.java
+END
+UKRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/UKRegion.java
+END
+EURLibor4M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor4M.java
+END
+Euribor10M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor10M.java
+END
+EURLibor6M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor6M.java
+END
+EURLibor8M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor8M.java
+END
+DailyTenorEuribor365.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1423/trunk/jquantlib/src/main/java/org/jquantlib/indexes/DailyTenorEuribor365.java
+END
+EURLibor10M.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor10M.java
+END
+DailyTenorEuribor.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1423/trunk/jquantlib/src/main/java/org/jquantlib/indexes/DailyTenorEuribor.java
+END
+SwapIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1411/trunk/jquantlib/src/main/java/org/jquantlib/indexes/SwapIndex.java
+END
+Euribor365_2M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_2M.java
+END
+UsdLiborSwapIsdaFixAm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/UsdLiborSwapIsdaFixAm.java
+END
+Euribor365_4M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_4M.java
+END
+Euribor365_6M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_6M.java
+END
+Euribor365_8M.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_8M.java
+END
+JpyLiborSwapIsdaFixAm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/JpyLiborSwapIsdaFixAm.java
+END
+ZeroInflationIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ZeroInflationIndex.java
+END
+EuriborSwapIsdaFixB.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EuriborSwapIsdaFixB.java
+END
+Euribor365_3W.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_3W.java
+END
+EuriborSW.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EuriborSW.java
+END
+EurLiborSwapIfrFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EurLiborSwapIfrFix.java
+END
+BMAIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/1421/trunk/jquantlib/src/main/java/org/jquantlib/indexes/BMAIndex.java
+END
+EURLiborSW.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLiborSW.java
+END
+FranceRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/FranceRegion.java
+END
+GbpLiborSwapIsdaFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/GbpLiborSwapIsdaFix.java
+END
+Euribor365.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1423/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365.java
+END
+Euribor1M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor1M.java
+END
+Euribor3M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor3M.java
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Index.java
+END
+Euribor5M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor5M.java
+END
+Euribor7M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor7M.java
+END
+InflationIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/InflationIndex.java
+END
+Euribor9M.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor9M.java
+END
+EURegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURegion.java
+END
+Euribor365_SW.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_SW.java
+END
+Euribor2W.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor2W.java
+END
+EURLibor1M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor1M.java
+END
+Euribor1Y.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor1Y.java
+END
+Euribor365_10M.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor365_10M.java
+END
+EURLibor3M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor3M.java
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Region.java
+END
+EURLibor5M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor5M.java
+END
+Euribor11M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1412/trunk/jquantlib/src/main/java/org/jquantlib/indexes/Euribor11M.java
+END
+EURLibor7M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor7M.java
+END
+EurLiborSwapIsdaFixA.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1431/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EurLiborSwapIsdaFixA.java
+END
+AustraliaRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1435/trunk/jquantlib/src/main/java/org/jquantlib/indexes/AustraliaRegion.java
+END
+EURLibor9M.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor9M.java
+END
+EURLibor2W.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor2W.java
+END
+EURLibor1Y.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1418/trunk/jquantlib/src/main/java/org/jquantlib/indexes/EURLibor1Y.java
+END

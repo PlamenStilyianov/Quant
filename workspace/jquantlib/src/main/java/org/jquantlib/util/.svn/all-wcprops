@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jquant/!svn/ver/1446/trunk/jquantlib/src/main/java/org/jquantlib/util
+END
+Visitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/util/Visitor.java
+END
+ComparablePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/util/ComparablePair.java
+END
+ObservableValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/util/ObservableValue.java
+END
+Visitable.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/util/Visitable.java
+END
+Observable.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1132/trunk/jquantlib/src/main/java/org/jquantlib/util/Observable.java
+END
+PolymorphicVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/util/PolymorphicVisitor.java
+END
+LazyObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1261/trunk/jquantlib/src/main/java/org/jquantlib/util/LazyObject.java
+END
+Observer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1261/trunk/jquantlib/src/main/java/org/jquantlib/util/Observer.java
+END
+PolymorphicVisitable.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/util/PolymorphicVisitable.java
+END
+DefaultObservable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1446/trunk/jquantlib/src/main/java/org/jquantlib/util/DefaultObservable.java
+END
+Std.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/util/Std.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/util/Pair.java
+END
+WeakReferenceObservable.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1261/trunk/jquantlib/src/main/java/org/jquantlib/util/WeakReferenceObservable.java
+END

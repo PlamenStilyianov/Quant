@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/currencies
+END
+Europe.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1429/trunk/jquantlib/src/main/java/org/jquantlib/currencies/Europe.java
+END
+Oceania.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1429/trunk/jquantlib/src/main/java/org/jquantlib/currencies/Oceania.java
+END
+America.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/currencies/America.java
+END
+Africa.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1430/trunk/jquantlib/src/main/java/org/jquantlib/currencies/Africa.java
+END
+Money.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/1410/trunk/jquantlib/src/main/java/org/jquantlib/currencies/Money.java
+END
+ExchangeRateManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1410/trunk/jquantlib/src/main/java/org/jquantlib/currencies/ExchangeRateManager.java
+END
+Currency.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1429/trunk/jquantlib/src/main/java/org/jquantlib/currencies/Currency.java
+END
+Asia.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1429/trunk/jquantlib/src/main/java/org/jquantlib/currencies/Asia.java
+END
+ExchangeRate.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1410/trunk/jquantlib/src/main/java/org/jquantlib/currencies/ExchangeRate.java
+END

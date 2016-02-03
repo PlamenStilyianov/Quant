@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/model/equity
+END
+BatesModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/model/equity/BatesModel.java
+END
+HestonModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/model/equity/HestonModel.java
+END
+BatesDoubleExpModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/model/equity/BatesDoubleExpModel.java
+END

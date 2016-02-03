@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/asian
+END
+AnalyticDiscreteGeometricAveragePriceAsianEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/asian/AnalyticDiscreteGeometricAveragePriceAsianEngine.java
+END
+AnalyticContinuousGeometricAveragePriceAsianEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/asian/AnalyticContinuousGeometricAveragePriceAsianEngine.java
+END

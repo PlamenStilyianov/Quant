@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/integrals
+END
+GammaFunctionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/integrals/GammaFunctionTest.java
+END
+IntegralsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/integrals/IntegralsTest.java
+END
+GaussKonrodPattersonIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/jquant/!svn/ver/1295/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/integrals/GaussKonrodPattersonIntegratorTest.java
+END
+TabulatedGaussLegendreTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/jquant/!svn/ver/1295/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/integrals/TabulatedGaussLegendreTest.java
+END

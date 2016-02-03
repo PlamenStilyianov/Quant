@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+
+  <publishDate position="left"/>
+  <version position="right"/>
+  
+  <body>
+    <menu ref="parent"/>
+    <menu ref="modules"/>
+    <menu name="Overview">
+      <item name="About ${project.name}"    href="about.html" />
+      <item name="Downloads"                href="http://www.jquantlib.org/index.php/Download" />
+      <item name="Support"                  href="http://www.jquantlib.org/index.php/Support" />
+      <item name="Contact us"               href="http://www.jquantlib.org/index.php/Contact_us" />
+    </menu>
+	<menu name="Documentation">
+      <item name="Features"                 href="http://www.jquantlib.org/index.php/Features" />
+      <item name="Samples"                  href="http://www.jquantlib.org/index.php/Samples"/>
+      <!-- item name="Release Notes"        href="http://www.jquantlib.org/index.php/ReleaseNotes" / -->
+      <item name="Releases" collapse="false">
+        <item name="0.2.4 (current)"        href="apidocs/0.2.4/index.html"/>
+        <item name="0.2.3"                  href="apidocs/0.2.3/index.html"/>
+        <item name="0.1.2"                  href="apidocs/0.1.2/index.html"/>
+      </item>
+      <item name="Developer" collapse="false">
+        <item name="0.2.5-SNAPSHOT"         href="apidocs/0.2.5-SNAPSHOT/index.html"/>
+        <item name="Building from source"   href="http://www.jquantlib.org/index.php/ReadMe" />
+        <item name="Guidelines"             href="http://www.jquantlib.org/index.php/Translation_Guidelines" />
+        <item name="Design Patterns"        href="http://www.jquantlib.org/index.php/Design_Patterns" />
+        <item name="Unit tests"             href="http://www.jquantlib.org/sites/jquantlib/surefire-report.html" />
+        <item name="Integration tests"      href="http://www.jquantlib.org/sites/jquantlib/cobertura/index.html" />
+        <item name="Contributing"           href="http://www.jquantlib.org/index.php/Contributing_to_JQuantLib" />
+      </item>
+	</menu>
+    <menu ref="reports" />
+  </body>
+</project>

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization
+END
+NonLinearLeastSquare.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/NonLinearLeastSquare.java
+END
+LeastSquareFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1148/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/LeastSquareFunction.java
+END
+Problem.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/Problem.java
+END
+SteepestDescent.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/jquant/!svn/ver/1262/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/SteepestDescent.java
+END
+CompositeConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/CompositeConstraint.java
+END
+PositiveConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/PositiveConstraint.java
+END
+LeastSquareProblem.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/LeastSquareProblem.java
+END
+LineSearchBasedMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/LineSearchBasedMethod.java
+END
+LineSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/LineSearch.java
+END
+CostFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/CostFunction.java
+END
+ProjectedCostFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/ProjectedCostFunction.java
+END
+ArmijoLineSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/ArmijoLineSearch.java
+END
+NoConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/NoConstraint.java
+END
+Simplex.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1318/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/Simplex.java
+END
+Minpack.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/Minpack.java
+END
+SphereCylinderOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/946/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/SphereCylinderOptimizer.java
+END
+Constraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1236/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/Constraint.java
+END
+OptimizationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/OptimizationMethod.java
+END
+BoundaryConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/BoundaryConstraint.java
+END
+EndCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/EndCriteria.java
+END
+LevenbergMarquardt.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/LevenbergMarquardt.java
+END
+ParametersTransformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1305/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/ParametersTransformation.java
+END
+ConjugateGradient.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/math/optimization/ConjugateGradient.java
+END

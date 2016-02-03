@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal
+END
+DirectAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/DirectAddress.java
+END
+MappedMatrixAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/MappedMatrixAddress.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/Address.java
+END
+DirectMatrixAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/DirectMatrixAddress.java
+END
+DirectArrayRowAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/DirectArrayRowAddress.java
+END
+MappedAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/MappedAddress.java
+END
+DirectArrayColAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/internal/DirectArrayColAddress.java
+END

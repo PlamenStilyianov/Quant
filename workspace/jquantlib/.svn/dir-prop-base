@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 39
+target
+bin
+lib
+nbactions.xml
+.settings
+
+END

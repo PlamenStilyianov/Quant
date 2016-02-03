@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D
+END
+Bisection.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/Bisection.java
+END
+FalsePosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/FalsePosition.java
+END
+NewtonSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/NewtonSafe.java
+END
+Ridder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/Ridder.java
+END
+Brent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/Brent.java
+END
+Newton.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/Newton.java
+END
+Secant.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/solvers1D/Secant.java
+END

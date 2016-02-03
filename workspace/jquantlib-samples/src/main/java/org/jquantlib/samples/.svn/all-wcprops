@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples
+END
+Dates.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Dates.java
+END
+SobolChartSample.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/SobolChartSample.java
+END
+ConvertibleBonds.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/ConvertibleBonds.java
+END
+Repo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Repo.java
+END
+Bonds.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Bonds.java
+END
+Processes.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Processes.java
+END
+YieldCurveTermStructures.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/YieldCurveTermStructures.java
+END
+FRA.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1375/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/FRA.java
+END
+Replication.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Replication.java
+END
+Swap.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Swap.java
+END
+CoxRossWithHullWhite.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1375/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/CoxRossWithHullWhite.java
+END
+BermudanSwaption.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1373/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/BermudanSwaption.java
+END
+DiscreteHedging.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1375/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/DiscreteHedging.java
+END
+VolatilityTermStructures.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/VolatilityTermStructures.java
+END
+EquityOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/EquityOptions.java
+END
+Calendars.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/Calendars.java
+END
+AllSamples.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1392/trunk/jquantlib-samples/src/main/java/org/jquantlib/samples/AllSamples.java
+END

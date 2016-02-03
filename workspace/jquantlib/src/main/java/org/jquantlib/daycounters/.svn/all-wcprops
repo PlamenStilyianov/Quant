@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jquant/!svn/ver/1410/trunk/jquantlib/src/main/java/org/jquantlib/daycounters
+END
+Actual360.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1236/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/Actual360.java
+END
+ActualActual.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/ActualActual.java
+END
+Business252.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1322/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/Business252.java
+END
+Actual365Fixed.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1236/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/Actual365Fixed.java
+END
+SimpleDayCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1322/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/SimpleDayCounter.java
+END
+Thirty360.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1322/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/Thirty360.java
+END
+DayCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1410/trunk/jquantlib/src/main/java/org/jquantlib/daycounters/DayCounter.java
+END

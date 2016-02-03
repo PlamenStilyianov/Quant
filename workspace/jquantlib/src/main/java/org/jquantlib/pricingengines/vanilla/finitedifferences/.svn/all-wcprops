@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences
+END
+FDAmericanCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDAmericanCondition.java
+END
+FDShoutEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDShoutEngine.java
+END
+FDEuropeanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDEuropeanEngine.java
+END
+FDAmericanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDAmericanEngine.java
+END
+FDEngineAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDEngineAdapter.java
+END
+FDDividendEngineBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDDividendEngineBase.java
+END
+FDStepConditionEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDStepConditionEngine.java
+END
+FDShoutCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDShoutCondition.java
+END
+FDDividendEuropeanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDDividendEuropeanEngine.java
+END
+FDDividendEngineMerton73.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDDividendEngineMerton73.java
+END
+FDVanillaEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDVanillaEngine.java
+END
+FDDividendEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDDividendEngine.java
+END
+FDDividendAmericanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDDividendAmericanEngine.java
+END
+PayoffFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/PayoffFunction.java
+END
+FDMultiPeriodEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDMultiPeriodEngine.java
+END
+FDBermudanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/finitedifferences/FDBermudanEngine.java
+END

@@ -1,0 +1,82 @@
+10
+
+dir
+1447
+http://jquant.svn.sourceforge.net/svnroot/jquant/trunk/jquantlib/src/test/java/org/jquantlib/testsuite
+http://jquant.svn.sourceforge.net/svnroot/jquant
+
+
+
+2012-04-03T22:14:46.601279Z
+1446
+fgomes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+945d5b45-6d3a-0410-8913-86594e9677e0
+
+quotes
+dir
+
+lang
+dir
+
+money
+dir
+
+math
+dir
+
+currency
+dir
+
+instruments
+dir
+
+calendars
+dir
+
+time
+dir
+
+patterns
+dir
+
+model
+dir
+
+daycounters
+dir
+
+methods
+dir
+
+pricingengines
+dir
+
+pricers
+dir
+
+termstructures
+dir
+
+date
+dir
+
+util
+dir
+
+operators
+dir
+

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions
+END
+IncompleteGamma.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/IncompleteGamma.java
+END
+Derivative.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1115/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/Derivative.java
+END
+NonCentralChiSquaredDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/jquant/!svn/ver/1122/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/NonCentralChiSquaredDistribution.java
+END
+BivariateNormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/BivariateNormalDistribution.java
+END
+MoroInverseCumulativeNormal.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/jquant/!svn/ver/1115/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/MoroInverseCumulativeNormal.java
+END
+GammaDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/GammaDistribution.java
+END
+InverseCumulativeNormal.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/InverseCumulativeNormal.java
+END
+InverseCumulativePoisson.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/InverseCumulativePoisson.java
+END
+CumulativeNormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/jquant/!svn/ver/1149/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/CumulativeNormalDistribution.java
+END
+NormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/NormalDistribution.java
+END
+GammaFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/GammaFunction.java
+END
+CumulativePoissonDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/jquant/!svn/ver/1264/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/CumulativePoissonDistribution.java
+END
+CumulativeBinomialDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/CumulativeBinomialDistribution.java
+END
+PoissonDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/PoissonDistribution.java
+END
+BinomialDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/distributions/BinomialDistribution.java
+END

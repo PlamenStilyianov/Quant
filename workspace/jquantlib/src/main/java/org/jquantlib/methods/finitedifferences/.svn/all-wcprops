@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences
+END
+ParallelEvolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/ParallelEvolver.java
+END
+CrankNicolson.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/733/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/CrankNicolson.java
+END
+NeumannBC.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1221/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/NeumannBC.java
+END
+PdeTypeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/PdeTypeUtil.java
+END
+Pde.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/845/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/Pde.java
+END
+ShoutCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/ShoutCondition.java
+END
+FiniteDifferenceModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/FiniteDifferenceModel.java
+END
+CurveDependentStepCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/CurveDependentStepCondition.java
+END
+ExplicitEuler.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/733/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/ExplicitEuler.java
+END
+DynamicPdeSecondOrderParabolic.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/jquant/!svn/ver/867/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/DynamicPdeSecondOrderParabolic.java
+END
+OperatorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/OperatorFactory.java
+END
+PdeOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/PdeOperator.java
+END
+DPlus.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/404/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/DPlus.java
+END
+Operator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1320/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/Operator.java
+END
+MixedScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/MixedScheme.java
+END
+BSMOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/BSMOperator.java
+END
+StepConditionSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/StepConditionSet.java
+END
+DMinus.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/DMinus.java
+END
+StandardSystemFiniteDifferenceModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/StandardSystemFiniteDifferenceModel.java
+END
+DPlusMinus.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/358/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/DPlusMinus.java
+END
+BoundaryConditionSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/BoundaryConditionSet.java
+END
+TridiagonalOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/TridiagonalOperator.java
+END
+PdeBSM.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/PdeBSM.java
+END
+DirichletBC.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/DirichletBC.java
+END
+PdeSecondOrderParabolic.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/PdeSecondOrderParabolic.java
+END
+NullCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/NullCondition.java
+END
+StepCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/357/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/StepCondition.java
+END
+GenericTimeSetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/GenericTimeSetter.java
+END
+DZero.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/358/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/DZero.java
+END
+PdeConstantCoeff.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/PdeConstantCoeff.java
+END
+BSMTermOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/BSMTermOperator.java
+END
+AmericanCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/AmericanCondition.java
+END
+ZeroCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/357/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/ZeroCondition.java
+END
+BoundaryCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1221/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/BoundaryCondition.java
+END
+StandardFiniteDifferenceModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/methods/finitedifferences/StandardFiniteDifferenceModel.java
+END

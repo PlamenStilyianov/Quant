@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets
+END
+LmFixedVolatilityModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets/LmFixedVolatilityModel.java
+END
+LmVolatilityModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets/LmVolatilityModel.java
+END
+LfmCovarianceProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets/LfmCovarianceProxy.java
+END
+LmCorrelationModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets/LmCorrelationModel.java
+END
+LmLinearExponentialVolatilityModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets/LmLinearExponentialVolatilityModel.java
+END
+LmLinearExponentialCorrelationModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/jquant/!svn/ver/1214/trunk/jquantlib/src/main/java/org/jquantlib/legacy/libormarkets/LmLinearExponentialCorrelationModel.java
+END

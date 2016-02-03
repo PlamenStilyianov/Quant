@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla
+END
+AnalyticDividendEuropeanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/AnalyticDividendEuropeanEngine.java
+END
+BjerksundStenslandApproximationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/BjerksundStenslandApproximationEngine.java
+END
+MCEuropeanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/MCEuropeanEngine.java
+END
+BaroneAdesiWhaleyApproximationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/BaroneAdesiWhaleyApproximationEngine.java
+END
+BinomialVanillaEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/BinomialVanillaEngine.java
+END
+JumpDiffusionEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/JumpDiffusionEngine.java
+END
+DiscretizedVanillaOption.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/DiscretizedVanillaOption.java
+END
+IntegralEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/IntegralEngine.java
+END
+MCVanillaEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/MCVanillaEngine.java
+END
+JuQuadraticApproximationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/pricingengines/vanilla/JuQuadraticApproximationEngine.java
+END

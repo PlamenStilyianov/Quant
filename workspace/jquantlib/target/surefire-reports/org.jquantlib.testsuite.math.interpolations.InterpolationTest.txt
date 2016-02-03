@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jquantlib.testsuite.math.interpolations.InterpolationTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.016 sec

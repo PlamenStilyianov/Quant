@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions
+END
+BivariateNormalDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/BivariateNormalDistributionTest.java
+END
+MoroInverseCumulativeNormalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/MoroInverseCumulativeNormalTest.java
+END
+GammaDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/GammaDistributionTest.java
+END
+RegularisedIncompleteBetaTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/RegularisedIncompleteBetaTest.java
+END
+InverseCumulativeNormalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/InverseCumulativeNormalTest.java
+END
+PoissonNormalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/PoissonNormalTest.java
+END
+InverseCumulativePoissonTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/InverseCumulativePoissonTest.java
+END
+CumulativeNormalDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/CumulativeNormalDistributionTest.java
+END
+NormalDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/NormalDistributionTest.java
+END
+CumulativeBinomialDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/CumulativeBinomialDistributionTest.java
+END
+CumulativePoissonDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/CumulativePoissonDistributionTest.java
+END
+BinomialDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/BinomialDistributionTest.java
+END
+NonCentralChiSquaredDistributionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/distributions/NonCentralChiSquaredDistributionTest.java
+END

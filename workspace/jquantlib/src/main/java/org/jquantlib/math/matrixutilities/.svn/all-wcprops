@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities
+END
+QRDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/QRDecomposition.java
+END
+EigenvalueDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/jquant/!svn/ver/1320/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/EigenvalueDecomposition.java
+END
+Cells.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/Cells.java
+END
+Matrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/Matrix.java
+END
+BasisIncompleteOrdered.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/jquant/!svn/ver/1149/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/BasisIncompleteOrdered.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1320/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/Identity.java
+END
+PseudoSqrt.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/PseudoSqrt.java
+END
+SVD.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/SVD.java
+END
+Algebra.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/Algebra.java
+END
+HypersphereCostFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/jquant/!svn/ver/1149/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/HypersphereCostFunction.java
+END
+LUDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/LUDecomposition.java
+END
+Array.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1372/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/Array.java
+END
+CholeskyDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/CholeskyDecomposition.java
+END
+SymmetricSchurDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/jquant/!svn/ver/1320/trunk/jquantlib/src/main/java/org/jquantlib/math/matrixutilities/SymmetricSchurDecomposition.java
+END

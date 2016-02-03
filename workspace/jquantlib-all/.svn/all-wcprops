@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/jquant/!svn/ver/1445/trunk/jquantlib-all
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jquant/!svn/ver/1193/trunk/jquantlib-all/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jquant/!svn/ver/1441/trunk/jquantlib-all/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jquant/!svn/ver/1445/trunk/jquantlib-all/pom.xml
+END

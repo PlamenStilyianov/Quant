@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D
+END
+BisectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/BisectionTest.java
+END
+FalsePositionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/FalsePositionTest.java
+END
+NewtonSafeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/NewtonSafeTest.java
+END
+RidderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/RidderTest.java
+END
+BrentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/BrentTest.java
+END
+NewtonTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/NewtonTest.java
+END
+SecantTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1252/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/solvers1D/SecantTest.java
+END

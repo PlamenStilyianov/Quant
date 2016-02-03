@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations
+END
+SABRInterpolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/jquant/!svn/ver/1320/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations/SABRInterpolationTest.java
+END
+LinearInterpolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations/LinearInterpolationTest.java
+END
+FlatForwardInterpolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/jquant/!svn/ver/1324/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations/FlatForwardInterpolationTest.java
+END
+BackwardInterpolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations/BackwardInterpolationTest.java
+END
+InterpolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations/InterpolationTest.java
+END
+BilinearInterpolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/jquant/!svn/ver/1261/trunk/jquantlib/src/test/java/org/jquantlib/testsuite/math/interpolations/BilinearInterpolationTest.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices
+END
+ExtendedTrigeorgis.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedTrigeorgis.java
+END
+ExtendedJoshi4.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedJoshi4.java
+END
+ExtendedEqualJumpsBinomialTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedEqualJumpsBinomialTree.java
+END
+ExtendedCoxRossRubinstein.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedCoxRossRubinstein.java
+END
+ExtendedJarrowRudd.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedJarrowRudd.java
+END
+ExtendedLeisenReimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1321/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedLeisenReimer.java
+END
+ExtendedAdditiveEQPBinomialTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedAdditiveEQPBinomialTree.java
+END
+ExtendedBinomialTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedBinomialTree.java
+END
+ExtendedEqualProbabilitiesBinomialTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedEqualProbabilitiesBinomialTree.java
+END
+ExtendedTian.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1245/trunk/jquantlib/src/main/java/org/jquantlib/experimental/lattices/ExtendedTian.java
+END

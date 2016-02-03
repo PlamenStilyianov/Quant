@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/time
+END
+PeriodParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1401/trunk/jquantlib/src/main/java/org/jquantlib/time/PeriodParser.java
+END
+Frequency.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/time/Frequency.java
+END
+TimeGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/time/TimeGrid.java
+END
+TimeSeries.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/time/TimeSeries.java
+END
+Calendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1398/trunk/jquantlib/src/main/java/org/jquantlib/time/Calendar.java
+END
+Date.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/time/Date.java
+END
+Period.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jquant/!svn/ver/1410/trunk/jquantlib/src/main/java/org/jquantlib/time/Period.java
+END
+IMM.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/time/IMM.java
+END
+Month.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/time/Month.java
+END
+DateGeneration.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1236/trunk/jquantlib/src/main/java/org/jquantlib/time/DateGeneration.java
+END
+Weekday.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/time/Weekday.java
+END
+Series.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/time/Series.java
+END
+MakeSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1386/trunk/jquantlib/src/main/java/org/jquantlib/time/MakeSchedule.java
+END
+DateParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/time/DateParser.java
+END
+BusinessDayConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1223/trunk/jquantlib/src/main/java/org/jquantlib/time/BusinessDayConvention.java
+END
+Schedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1386/trunk/jquantlib/src/main/java/org/jquantlib/time/Schedule.java
+END
+TimeUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/time/TimeUnit.java
+END

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor
+END
+GBPLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/GBPLibor.java
+END
+DKKLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/DKKLibor.java
+END
+AUDLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/AUDLibor.java
+END
+DailyTenorLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/DailyTenorLibor.java
+END
+Libor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1434/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/Libor.java
+END
+SEKLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/SEKLibor.java
+END
+CADLiborON.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/CADLiborON.java
+END
+TRLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1433/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/TRLibor.java
+END
+DailyTenorUSDLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/DailyTenorUSDLibor.java
+END
+CADLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/CADLibor.java
+END
+Tibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/Tibor.java
+END
+USDLiborON.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/USDLiborON.java
+END
+DailyTenorCHFLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/DailyTenorCHFLibor.java
+END
+NZDLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/NZDLibor.java
+END
+USDLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1275/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/USDLibor.java
+END
+DailyTenorJPYLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/DailyTenorJPYLibor.java
+END
+Zibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/Zibor.java
+END
+Jibar.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/Jibar.java
+END
+Cdor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1432/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/Cdor.java
+END
+CHFLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/CHFLibor.java
+END
+JPYLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/JPYLibor.java
+END
+DailyTenorGBPLibor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/DailyTenorGBPLibor.java
+END
+GBPLiborON.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1427/trunk/jquantlib/src/main/java/org/jquantlib/indexes/ibor/GBPLiborON.java
+END

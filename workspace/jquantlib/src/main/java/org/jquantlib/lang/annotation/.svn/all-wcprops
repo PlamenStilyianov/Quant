@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation
+END
+Typedef.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Typedef.java
+END
+Volatility.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Volatility.java
+END
+Unused.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/787/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Unused.java
+END
+Natural.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/504/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Natural.java
+END
+Drift.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Drift.java
+END
+Covariance.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Covariance.java
+END
+Unsigned.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/547/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Unsigned.java
+END
+NonNegative.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/794/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/NonNegative.java
+END
+Spread.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1113/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Spread.java
+END
+Real.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1266/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Real.java
+END
+Expectation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Expectation.java
+END
+CompoundFactor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/CompoundFactor.java
+END
+PackagePrivate.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/504/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/PackagePrivate.java
+END
+Diffusion.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Diffusion.java
+END
+DiscountFactor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/DiscountFactor.java
+END
+Variance.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Variance.java
+END
+StdDev.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/StdDev.java
+END
+Rate.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/538/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Rate.java
+END
+QualityAssurance.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1146/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/QualityAssurance.java
+END
+Time.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/794/trunk/jquantlib/src/main/java/org/jquantlib/lang/annotation/Time.java
+END

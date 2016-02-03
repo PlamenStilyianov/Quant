@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jquantlib.testsuite.termstructures.yieldcurves.PiecewiseYieldCurveTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 12, Time elapsed: 0 sec

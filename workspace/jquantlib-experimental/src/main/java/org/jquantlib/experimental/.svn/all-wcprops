@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1333/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental
+END
+PrimitiveCollectionAddVisitorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/jquant/!svn/ver/947/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/PrimitiveCollectionAddVisitorImpl.java
+END
+DefaultPrimativeListStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/jquant/!svn/ver/832/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/DefaultPrimativeListStrategy.java
+END
+ListDoubleArrayListStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/jquant/!svn/ver/832/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/ListDoubleArrayListStrategy.java
+END
+PrimativeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/831/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/PrimativeList.java
+END
+StrategyLoadingList.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/jquant/!svn/ver/832/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/StrategyLoadingList.java
+END
+PrimitiveCollectionAddVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/jquant/!svn/ver/947/trunk/jquantlib-experimental/src/main/java/org/jquantlib/experimental/PrimitiveCollectionAddVisitor.java
+END

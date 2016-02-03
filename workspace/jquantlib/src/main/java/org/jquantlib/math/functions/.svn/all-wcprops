@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/math/functions
+END
+FindIf.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1313/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/FindIf.java
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Expression.java
+END
+Square.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1295/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Square.java
+END
+TruePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/TruePredicate.java
+END
+Bind2ndPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Bind2ndPredicate.java
+END
+GreaterEqualPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/GreaterEqualPredicate.java
+END
+LessThanPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/LessThanPredicate.java
+END
+Bind1st.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Bind1st.java
+END
+Abs.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Abs.java
+END
+Fourth.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Fourth.java
+END
+Nowhere.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Nowhere.java
+END
+FalsePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jquant/!svn/ver/1115/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/FalsePredicate.java
+END
+CloseEnough.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jquant/!svn/ver/1283/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/CloseEnough.java
+END
+Cube.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Cube.java
+END
+ComposedFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/ComposedFunction.java
+END
+LessEqualPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/LessEqualPredicate.java
+END
+Clipped.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Clipped.java
+END
+Bind2nd.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Bind2nd.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1115/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Log.java
+END
+Cos.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Cos.java
+END
+Everywhere.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Everywhere.java
+END
+Bind1stPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Bind1stPredicate.java
+END
+GreaterThanPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/GreaterThanPredicate.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Constant.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Identity.java
+END
+Sin.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Sin.java
+END
+Sqrt.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Sqrt.java
+END
+Minus.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1265/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Minus.java
+END
+Exp.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1115/trunk/jquantlib/src/main/java/org/jquantlib/math/functions/Exp.java
+END

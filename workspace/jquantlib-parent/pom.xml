@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Copyright (C) 2008 Richard Gomes
+    
+    This source code is release under the BSD License.
+    
+    This file is part of JQuantLib, a free-software/open-source library
+    for financial quantitative analysts and developers - http://jquantlib.org/
+    
+    JQuantLib is free software: you can redistribute it and/or modify it
+    under the terms of the JQuantLib license.  You should have received a
+    copy of the license along with this program; if not, please email
+    <jquant-devel@lists.sourceforge.net>. The license is also available online at
+    <http://www.jquantlib.org/index.php/LICENSE.TXT>.
+    
+    This program is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the license for more details.
+     
+    JQuantLib is based on QuantLib. http://quantlib.org/
+-->
+
+<!--
+    ** ===== Profiles defined by this parent pom.xml =====
+    **
+    ** with-uml          :: allows generation of mathematical equations and fancy UML documentation
+    **
+    ** with-scm          :: allows validation of local copy against SVN repository
+    ** with-clirr        :: turns on comparison of binaries or sources for compatibility
+    **
+    ** without-tests     :: turns off system tests provided by Surefire
+    ** with-cobertura    :: turns on complete code coverage and Cobertura test reports
+    **
+    **
+    ** These profiles can be combined, selecting the desired features.
+    ** In the following example we generate all reports:
+    **
+    **      mvn clean site -P with-uml,with-scm,with-clirr,with-cobertura
+    **
+    **
+    ** The example below do not execute test cases and do not produce test case reports: 
+    **
+    **      mvn clean site -P without-tests
+    **
+    **
+    ** ***************
+    ** *  IMPORTANT  *
+    ** ***************
+    **
+    ** Properties expected to exist in your settings.xml (optional)
+    **
+    ** props.site.deploy.url :: Defines where the generated site will be deployed.
+    **                          See example below:
+    ** <profiles>
+    **   <profile>
+    **     <id>my-profile</id>
+    **     <properties>
+    **       <props.site.deploy.url>file:///srv/jquantlib.org/sites</props.site.deploy.url>
+    **     </properties>
+    **   </profile>
+    ** </profiles>
+    **
+    ** mvn clean javadoc:javadoc site site-deploy -P my-profile
+    **
+    **
+    ** @author Richard Gomes
+    **
+-->
+
+<project 
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jquantlib</groupId>
+  <artifactId>jquantlib-parent</artifactId>
+  <version>0.2.5-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>${project.artifactId}</name>
+  <url>http://www.jquantlib.org/sites/${project.artifactId}/</url>
+
+  <description>
+        This project contains the parent pom.xml for all JQuantLib projects.
+    </description>
+
+  <prerequisites>
+    <maven>>=2.2.1</maven>
+  </prerequisites>
+
+  <properties>
+    <!-- These are versions valid for Maven 2.2.1 -->
+    <!-- See profile maven3 for valid versions with Maven 3.0.x -->
+    <props.maven.maven-antrun-plugin.version>1.3</props.maven.maven-antrun-plugin.version>
+    <props.maven.maven-assembly-plugin.version>2.2-beta-2</props.maven.maven-assembly-plugin.version>
+    <props.maven.maven-changelog-plugin.version>2.1</props.maven.maven-changelog-plugin.version>
+    <props.maven.maven-clean-plugin.version>2.2</props.maven.maven-clean-plugin.version>
+    <props.maven.maven-compiler-plugin.version>2.3.2</props.maven.maven-compiler-plugin.version>
+    <props.maven.maven-dependency-plugin.version>2.0</props.maven.maven-dependency-plugin.version>
+    <props.maven.maven-deploy-plugin.version>2.4</props.maven.maven-deploy-plugin.version>
+    <props.maven.maven-eclipse-plugin.version>2.8</props.maven.maven-eclipse-plugin.version>
+    <props.maven.maven-enforcer-plugin.version>1.0</props.maven.maven-enforcer-plugin.version>
+    <props.maven.maven-failsafe-plugin.version>2.10</props.maven.maven-failsafe-plugin.version>
+    <props.maven.maven-install-plugin.version>2.2</props.maven.maven-install-plugin.version>
+    <props.maven.maven-jar-plugin.version>2.3.1</props.maven.maven-jar-plugin.version>
+    <props.maven.maven-javadoc-plugin.version>2.8</props.maven.maven-javadoc-plugin.version>
+    <props.maven.maven-jxr-plugin.version>2.1</props.maven.maven-jxr-plugin.version>
+    <props.maven.maven-pmd-plugin.version>2.4</props.maven.maven-pmd-plugin.version>
+    <props.maven.maven-project-info-reports-plugin.version>2.1</props.maven.maven-project-info-reports-plugin.version>
+    <props.maven.maven-reactor-plugin.version>1.0</props.maven.maven-reactor-plugin.version>
+    <props.maven.maven-resources-plugin.version>2.3</props.maven.maven-resources-plugin.version>
+    <props.maven.maven-scm-plugin.version>1.3</props.maven.maven-scm-plugin.version>
+    <props.maven.maven-site-plugin.version>2.0</props.maven.maven-site-plugin.version>
+    <props.maven.maven-source-plugin.version>2.1.2</props.maven.maven-source-plugin.version>
+    <props.maven.maven-surefire-plugin.version>2.4.3</props.maven.maven-surefire-plugin.version>
+    <props.maven.maven-war-plugin.version>2.1-alpha-2</props.maven.maven-war-plugin.version>
+
+    <props.maven.buildnumber-maven-plugin.version>1.0</props.maven.buildnumber-maven-plugin.version>
+    <props.maven.clirr-maven-plugin.version>2.3</props.maven.clirr-maven-plugin.version>
+    <props.maven.cobertura-maven-plugin.version>2.3</props.maven.cobertura-maven-plugin.version>
+    <props.maven.findbugs-maven-plugin.version>2.3</props.maven.findbugs-maven-plugin.version>
+    <props.maven.jdepend-maven-plugin.version>2.0-beta-2</props.maven.jdepend-maven-plugin.version>
+    <props.maven.properties-maven-plugin.version>1.0-alpha-2</props.maven.properties-maven-plugin.version>
+    <props.maven.taglist-maven-plugin.version>2.4</props.maven.taglist-maven-plugin.version>
+    <props.maven.wagon.wagon-ssh.version>1.0-beta-7</props.maven.wagon.wagon-ssh.version>
+
+    <umlgraph.version>4.9.0</umlgraph.version> <!-- UMLGraph-4.9.0 works fine. UMLGraph-5.0, 5.1 and 5.2 do not work :( -->
+    <latextaglet.version>0.1.2</latextaglet.version>
+
+    <junit.version>4.4</junit.version>
+    <slf4j.version>1.4.0</slf4j.version>
+    <jcip-annotations.version>1.0</jcip-annotations.version>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <props.compile.jdk.source>1.6</props.compile.jdk.source>
+    <props.compile.jdk.target>1.6</props.compile.jdk.target>
+    <props.compile.meminitial>128m</props.compile.meminitial>
+    <props.compile.maxmem>512m</props.compile.maxmem>
+    <props.compile.fork>false</props.compile.fork>    <!-- Be cautious: may fork a different JVM -->
+  </properties>
+
+
+
+  <distributionManagement>
+    <repository>
+      <id>jquantlib-releases</id>
+      <name>jquantlib-releases</name>
+      <url>http://artifactory.jquantlib.org:8080/artifactory/libs-releases-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>jquantlib-snapshots</id>
+      <name>jquantlib-snapshots</name>
+      <url>http://artifactory.jquantlib.org:8080/artifactory/libs-snapshots-local</url>
+    </snapshotRepository>
+
+    <!-- NOTES: ** ** * maven-site-plugin gets confused by flat project model employed by Eclipse :( ** ** * Every project *** MUST REDEFINE 
+      *** the <site> section as it is shown below. ** Notice that no modifications are needed! You only need to copy/paste the <site> ** section 
+      below to all your subprojects. ** Note that this procedure is needed due to the way Maven promotes inheritance supposing ** a hierarchical 
+      model whilst we are employing the flat project model. ** ** IMPORTANT: if you are willing to deploy documentation (or the generated site) 
+      you ** need to define property "props.site.deploy.url" in your ~/.m2/settings.xml file. ** See more information on the top of this file. -->
+    <site>
+      <id>site</id>
+      <name>${project.artifactId} site generated by Maven</name>
+      <url>${props.site.deploy.url}/${project.artifactId}</url>
+    </site>
+  </distributionManagement>
+
+  <organization>
+    <name>JQuantLib</name>
+    <url>http://www.jquantlib.org/</url>
+  </organization>
+
+  <inceptionYear>2007</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>manual</distribution>
+      <comments>Open Source Initiative OSI - The BSD License</comments>
+    </license>
+  </licenses>
+
+  <mailingLists>
+    <mailingList>
+      <name>jquant-devel</name>
+      <subscribe>https://lists.sourceforge.net/lists/listinfo/jquant-devel</subscribe>
+      <unsubscribe>https://lists.sourceforge.net/lists/listinfo/jquant-devel</unsubscribe>
+      <post>jquant-devel@lists.sourceforge.net</post>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_name=jquant-devel</archive>
+    </mailingList>
+    <mailingList>
+      <name>jquant-users</name>
+      <subscribe>https://lists.sourceforge.net/lists/listinfo/jquant-users</subscribe>
+      <unsubscribe>https://lists.sourceforge.net/lists/listinfo/jquant-users</unsubscribe>
+      <post>jquant-users@lists.sourceforge.net</post>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_name=jquant-users</archive>
+    </mailingList>
+  </mailingLists>
+
+  <developers>
+    <developer>
+      <id>fgomes</id>
+      <name>Richard Gomes</name>
+      <email>rgomes1997@yahoo.co.uk</email>
+      <url>http://www.jquantlib.org/index.php/User:RichardGomes</url>
+      <organization>JQuantLib.org</organization>
+      <organizationUrl>http://www.jquantlib.org/</organizationUrl>
+      <roles>
+        <role>administrator</role>
+        <role>developer</role>
+        <role>tester</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+    <developer>
+      <id>shasti</id>
+      <name>Srinivas Hasti</name>
+      <email>srinivas_h@yahoo.com</email>
+      <url />
+      <organization>JQuantLib.org</organization>
+      <organizationUrl>http://www.jquantlib.org/</organizationUrl>
+      <roles>
+        <role>developer</role>
+        <role>tester</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>homdol</id>
+      <name>Dominik Holenstein</name>
+      <email>dholenstein@gmail.com</email>
+      <url />
+      <organization>JQuantLib.org</organization>
+      <organizationUrl>http://www.jquantlib.org/</organizationUrl>
+      <roles>
+        <role>developer</role>
+        <role>tester</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>ueli</id>
+      <name>Ueli Hofstetter</name>
+      <email>uelihofstetter@gmail.com</email>
+      <url />
+      <organization>JQuantLib.org</organization>
+      <organizationUrl>http://www.jquantlib.org/</organizationUrl>
+      <roles>
+        <role>developer</role>
+        <role>tester</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:svn:http://jquant.svn.sourceforge.net/svnroot/jquant/trunk/${project.artifactId}</connection>
+    <developerConnection>scm:svn:https://jquant.svn.sourceforge.net/svnroot/jquant/trunk/${project.artifactId}</developerConnection>
+    <url>http://jquant.svn.sourceforge.net/svnroot/jquant/trunk/${project.artifactId}</url>
+  </scm>
+
+  <issueManagement>
+    <system>Mantis</system>
+    <url>http://bugs.jquantlib.org/</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>Hudson</system>
+    <url>http://www.jquantlib.org:8080/hudson/</url>
+    <notifiers>
+      <notifier>
+        <configuration>
+          <address>rgomes1997@yahoo.co.uk</address>
+        </configuration>
+      </notifier>
+      <notifier>
+        <configuration>
+          <address>srinivas_h@yahoo.com</address>
+        </configuration>
+      </notifier>
+      <notifier>
+        <configuration>
+          <address>dholenstein@gmail.com</address>
+        </configuration>
+      </notifier>
+      <notifier>
+        <configuration>
+          <address>q.boiler@yahoo.com</address>
+        </configuration>
+      </notifier>
+      <notifier>
+        <configuration>
+          <address>j.jia169@googlemail.com</address>
+        </configuration>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <name>central</name>
+      <url>http://repo1.maven.org/maven2</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>jquantlib</id>
+      <name>jquantlib</name>
+      <!-- url>http://artifactory.jquantlib.org:8080/artifactory/libs-release</url -->
+      <url>https://sourceforge.net/projects/jquant/files/m2-repo</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>codehaus</id>
+      <name>codehaus</name>
+      <url>http://repository.codehaus.org</url>
+      <layout>default</layout>
+    </pluginRepository>
+    <pluginRepository>
+      <id>central</id>
+      <name>central</name>
+      <url>http://repo1.maven.org/maven2</url>
+      <layout>default</layout>
+    </pluginRepository>
+    <pluginRepository>
+      <id>jquantlib</id>
+      <name>jquantlib</name>
+      <url>http://artifactory.jquantlib.org:8080/artifactory/libs-release</url>
+      <layout>default</layout>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-reactor-plugin</artifactId>
+          <version>${props.maven.maven-reactor-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>${props.maven.maven-dependency-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-eclipse-plugin</artifactId>
+          <version>${props.maven.maven-eclipse-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>${props.maven.maven-clean-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>${props.maven.maven-resources-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${props.maven.maven-compiler-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>${props.maven.maven-jar-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>${props.maven.maven-assembly-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>${props.maven.maven-javadoc-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>${props.maven.maven-install-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>${props.maven.maven-deploy-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${props.maven.maven-surefire-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>${props.maven.maven-site-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>${props.maven.maven-pmd-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jxr-plugin</artifactId>
+          <version>${props.maven.maven-jxr-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-failsafe-plugin</artifactId>
+          <version>${props.maven.maven-failsafe-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>${props.maven.maven-project-info-reports-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>jdepend-maven-plugin</artifactId>
+          <version>${props.maven.jdepend-maven-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>findbugs-maven-plugin</artifactId>
+          <version>${props.maven.findbugs-maven-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>taglist-maven-plugin</artifactId>
+          <version>${props.maven.taglist-maven-plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-eclipse-plugin</artifactId>
+        <configuration>
+          <useProjectReferences>true</useProjectReferences>
+          <downloadSources>true</downloadSources>
+          <downloadJavadocs>true</downloadJavadocs>
+          <sourceIncludes>
+            <!-- sourceInclude>**/*.java</sourceInclude -->
+          </sourceIncludes>
+          <classpathContainers>
+            <classpathContainer>org.eclipse.jdt.launching.JRE_CONTAINER</classpathContainer>
+          </classpathContainers>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${props.compile.jdk.source}</source>
+          <target>${props.compile.jdk.target}</target>
+          <encoding>${project.build.sourceEncoding}</encoding>
+          <meminitial>${props.compile.meminitial}</meminitial>
+          <maxmem>${props.compile.maxmem}</maxmem>
+          <fork>${props.compile.fork}</fork>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <index>true</index>
+            <manifest>
+              <mainClass>${maven.jar.manifest.dummy.class}</mainClass>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              <addExtensions>true</addExtensions>
+            </manifest>
+            <manifestEntries>
+              <Specification-Title>QuantLib</Specification-Title>           <!-- hardcoded :: never changes -->
+              <Specification-Vendor>QuantLib</Specification-Vendor>         <!-- hardcoded :: never changes -->
+              <Specification-Version>0.9.7</Specification-Version>          <!-- hardcoded :: changes rarely -->
+              <Implementation-Title>${project.name}</Implementation-Title>
+              <Implementation-Vendor>JQuantLib</Implementation-Vendor>      <!-- hardcoded :: never changes -->
+              <Implementation-Version>${project.version}</Implementation-Version>
+              <Implementation-Build>${buildNumber}</Implementation-Build>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>${props.maven.maven-javadoc-plugin.version}</version>
+        <reportSets>
+          <reportSet>
+            <id>html</id>
+            <configuration>
+              <destDir>apidocs/${project.version}</destDir>
+              <outputDirectory>${project.build.directory}/apidocs/${project.version}</outputDirectory>
+              <reportOutputDirectory>${project.reporting.outputDirectory}/apidocs/${project.version}</reportOutputDirectory>
+            </configuration>
+            <reports>
+              <report>javadoc</report>
+            </reports>
+          </reportSet>
+          <reportSet>
+            <id>test-html</id>
+            <configuration>
+              <destDir>testapidocs/${project.version}</destDir>
+              <outputDirectory>${project.build.directory}/testapidocs/${project.version}</outputDirectory>
+              <reportOutputDirectory>${project.reporting.outputDirectory}/testapidocs/${project.version}</reportOutputDirectory>
+            </configuration>
+            <reports>
+              <report>test-javadoc</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <version>${props.maven.maven-jxr-plugin.version}</version>
+        <configuration>
+          <linkJavadoc>true</linkJavadoc>
+          <javadocDir>target/site/apidocs/${project.version}</javadocDir>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>taglist-maven-plugin</artifactId>
+        <version>${props.maven.taglist-maven-plugin.version}</version>
+        <configuration>
+          <tags>
+            <tag>TODO</tag>
+            <tag>FIXME</tag>
+            <tag>XXX</tag>
+            <tag>TEST</tag>
+            <tag>PENDING</tag>
+            <tag>PERFORMANCE</tag>
+            <tag>@Override</tag>
+            <tag>@Deprecated</tag>
+            <tag>@SupressWarnings</tag>
+            <tag>@Ignore</tag>
+            <tag>@Unused</tag>
+            <tag>@note</tag>
+            <tag>@warning</tag>
+            <tag>@test</tag>
+            <tag>@bug</tag>
+          </tags>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>${props.maven.maven-pmd-plugin.version}</version>
+        <configuration>
+          <linkXref>true</linkXref>
+          <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
+          <minimumTokens>100</minimumTokens>
+          <targetJdk>${props.compile.jdk.target}</targetJdk>
+          <excludes>
+            <exclude>**/*Bean.java</exclude>
+            <exclude>**/generated/*.java</exclude>
+          </excludes>
+          <rulesets>
+            <ruleset>/rulesets/basic.xml</ruleset>
+            <ruleset>/rulesets/braces.xml</ruleset>
+            <ruleset>/rulesets/naming.xml</ruleset>
+            <ruleset>/rulesets/finalizers.xml</ruleset>
+            <ruleset>/rulesets/logging-java.xml</ruleset>
+            <ruleset>/rulesets/migrating.xml</ruleset>
+            <ruleset>/rulesets/controversial.xml</ruleset>
+            <ruleset>${basedir}/../jquantlib-parent/src/main/config/pmd/architectural.xml</ruleset>
+          </rulesets>
+        </configuration>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>pmd</report>
+              <report>cpd</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>${props.maven.findbugs-maven-plugin.version}</version>
+        <configuration>
+          <report>maven-findbugs-plugin</report>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jdepend-maven-plugin</artifactId>
+        <version>${props.maven.jdepend-maven-plugin.version}</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${props.maven.maven-surefire-plugin.version}</version>
+        <configuration>
+          <skip>${props.tests.skip}</skip>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>${props.maven.maven-failsafe-plugin.version}</version>
+        <configuration>
+          <skip>${props.tests.skip}</skip>
+        </configuration>
+      </plugin>
+
+    </plugins>
+
+  </reporting>
+
+
+  <profiles>
+
+    <profile>
+      <id>maven3</id>
+      <activation>
+        <file>
+          <!-- Only recognized by Maven 3.x (see MNG-2363) -->
+          <exists>${basedir}</exists>
+        </file>
+      </activation>
+      <properties>
+
+        <props.maven.maven-antrun-plugin.version>1.7</props.maven.maven-antrun-plugin.version>
+        <props.maven.maven-assembly-plugin.version>2.2-beta-2</props.maven.maven-assembly-plugin.version>
+        <props.maven.maven-changelog-plugin.version>2.2</props.maven.maven-changelog-plugin.version>
+        <props.maven.maven-clean-plugin.version>2.4.1</props.maven.maven-clean-plugin.version>
+        <props.maven.maven-compiler-plugin.version>2.3.2</props.maven.maven-compiler-plugin.version>
+        <props.maven.maven-dependency-plugin.version>2.3</props.maven.maven-dependency-plugin.version>
+        <props.maven.maven-deploy-plugin.version>2.7</props.maven.maven-deploy-plugin.version>
+        <props.maven.maven-eclipse-plugin.version>2.8</props.maven.maven-eclipse-plugin.version>
+        <props.maven.maven-enforcer-plugin.version>1.0.1</props.maven.maven-enforcer-plugin.version>
+        <props.maven.maven-failsafe-plugin.version>2.10</props.maven.maven-failsafe-plugin.version>
+        <props.maven.maven-install-plugin.version>2.3.1</props.maven.maven-install-plugin.version>
+        <props.maven.maven-jar-plugin.version>2.3.2</props.maven.maven-jar-plugin.version>
+        <props.maven.maven-javadoc-plugin.version>2.8</props.maven.maven-javadoc-plugin.version>
+        <props.maven.maven-jxr-plugin.version>2.3</props.maven.maven-jxr-plugin.version>
+        <props.maven.maven-pmd-plugin.version>2.6</props.maven.maven-pmd-plugin.version>
+        <props.maven.maven-project-info-reports-plugin.version>2.4</props.maven.maven-project-info-reports-plugin.version>
+        <props.maven.maven-resources-plugin.version>2.5</props.maven.maven-resources-plugin.version>
+        <props.maven.maven-scm-plugin.version>1.5</props.maven.maven-scm-plugin.version>
+        <props.maven.maven-site-plugin.version>3.0</props.maven.maven-site-plugin.version>
+        <props.maven.maven-source-plugin.version>2.1.2</props.maven.maven-source-plugin.version>
+        <props.maven.maven-surefire-plugin.version>2.10</props.maven.maven-surefire-plugin.version>
+        <props.maven.maven-war-plugin.version>2.1-alpha-2</props.maven.maven-war-plugin.version>
+        <props.maven.properties-maven-plugin.version>1.0-alpha-2</props.maven.properties-maven-plugin.version>
+
+        <props.maven.buildnumber-maven-plugin.version>1.0</props.maven.buildnumber-maven-plugin.version>
+        <props.maven.clirr-maven-plugin.version>2.3</props.maven.clirr-maven-plugin.version>
+        <props.maven.cobertura-maven-plugin.version>2.5.1</props.maven.cobertura-maven-plugin.version>
+        <props.maven.findbugs-maven-plugin.version>2.3.2</props.maven.findbugs-maven-plugin.version>
+        <props.maven.jdepend-maven-plugin.version>2.0-beta-2</props.maven.jdepend-maven-plugin.version>
+        <props.maven.taglist-maven-plugin.version>2.4</props.maven.taglist-maven-plugin.version>
+        <props.maven.wagon.wagon-ssh.version>1.0-beta-7</props.maven.wagon.wagon-ssh.version>
+
+      </properties>
+    </profile>
+
+    <profile>
+      <id>paranoid</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-enforcer-plugin</artifactId>
+              <version>${props.maven.maven-enforcer-plugin.version}</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>enforce-versions</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>enforce</goal>
+                </goals>
+                <configuration>
+                  <rules>
+                    <requireJavaVersion>
+                      <version>[1.6.0-21,1.7)</version>
+                    </requireJavaVersion>
+                    <requireMavenVersion>
+                      <version>[2.2.1,)</version>
+                    </requireMavenVersion>
+                    <requirePluginVersions>
+                      <message>Best Practice is to always define plugin versions!</message>
+                      <banLatest>true</banLatest>
+                      <banRelease>true</banRelease>
+                      <banSnapshots>true</banSnapshots>
+                      <phases>clean,deploy,site</phases>
+                      <additionalPlugins>
+                        <additionalPlugin>org.apache.maven.plugins:maven-eclipse-plugin</additionalPlugin>
+                        <additionalPlugin>org.apache.maven.plugins:maven-reactor-plugin</additionalPlugin>
+                      </additionalPlugins>
+                    </requirePluginVersions>
+                  </rules>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <profile>
+      <id>with-scm</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-scm-plugin</artifactId>
+              <version>${props.maven.maven-scm-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>buildnumber-maven-plugin</artifactId>
+              <version>${props.maven.buildnumber-maven-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-changelog-plugin</artifactId>
+              <version>${props.maven.maven-changelog-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>properties-maven-plugin</artifactId>
+              <version>${props.maven.properties-maven-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-antrun-plugin</artifactId>
+              <version>${props.maven.maven-antrun-plugin.version}</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-plugin</artifactId>
+            <configuration>
+              <startDate>YYYY-MM-DD</startDate>
+              <endDate>YYYY-MM-DD</endDate>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>properties-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>buildNumber</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>set-system-properties</goal>
+                </goals>
+                <configuration>
+                  <properties>
+                    <property>
+                      <name>buildNumber</name>
+                      <value>none</value>
+                    </property>
+                  </properties>
+                </configuration>
+              </execution>
+              <execution>
+                <id>props.tests.skip</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>set-system-properties</goal>
+                </goals>
+                <configuration>
+                  <properties>
+                    <property>
+                      <name>props.tests.skip</name>
+                      <value>false</value>
+                    </property>
+                  </properties>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>info</id>
+                <phase>initialize</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>project.groupId=${project.groupId}</echo>
+                    <echo>project.artifactId=${project.artifactId}</echo>
+                    <echo>project.version=${project.version}</echo>
+                    <echo>buildNumber=${buildNumber}</echo>
+                    <echo>user.home=${user.home}</echo>
+                    <echo>basedir=${basedir}</echo>
+                    <echo>java.version=${java.version}</echo>
+                    <echo>java.vm.version=${java.vm.version}</echo>
+                    <echo>java.home=${java.home}</echo>
+                    <echo>java.endorsed.dirs=${java.endorsed.dirs}</echo>
+                    <echo>java.ext.dirs=${java.ext.dirs}</echo>
+                    <echo>java.library.path=${java.library.path}</echo>
+                    <echo>java.runtime.version=${java.runtime.version}</echo>
+                    <echo>java.specification.version=${java.specification.version}</echo>
+                    <echo>props.tests.skip=${props.tests.skip}</echo>
+                  </tasks>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>buildnumber-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>buildNumber</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>create</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <doCheck>true</doCheck>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-changelog-plugin</artifactId>
+            <version>${props.maven.maven-changelog-plugin.version}</version>
+            <reportSets>
+              <reportSet>
+                <id>dual-report</id>
+                <configuration>
+                  <type>range</type>
+                  <range>30</range>
+                </configuration>
+                <reports>
+                  <report>changelog</report>
+                  <report>file-activity</report>
+                </reports>
+              </reportSet>
+            </reportSets>
+          </plugin>
+        </plugins>
+      </reporting>
+    </profile>
+
+    <profile>
+      <id>with-uml</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>gr.spinellis</groupId>
+              <artifactId>UmlGraph</artifactId>
+              <version>${umlgraph.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>net.sf.latextaglet</groupId>
+              <artifactId>latextaglet</artifactId>
+              <version>${latextaglet.version}</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <reportSets>
+              <reportSet>
+                <id>html</id>
+                <configuration>
+                  <destDir>apidocs/${project.version}</destDir>
+                  <outputDirectory>${project.build.directory}/apidocs/${project.version}</outputDirectory>
+                  <reportOutputDirectory>${project.reporting.outputDirectory}/apidocs/${project.version}</reportOutputDirectory>
+                </configuration>
+                <reports>
+                  <report>javadoc</report>
+                </reports>
+              </reportSet>
+              <reportSet>
+                <id>test-html</id>
+                <configuration>
+                  <destDir>testapidocs/${project.version}</destDir>
+                  <outputDirectory>${project.build.directory}/testapidocs/${project.version}</outputDirectory>
+                  <reportOutputDirectory>${project.reporting.outputDirectory}/testapidocs/${project.version}</reportOutputDirectory>
+                </configuration>
+                <reports>
+                  <report>test-javadoc</report>
+                </reports>
+              </reportSet>
+            </reportSets>
+            <configuration>
+              <aggregate>false</aggregate>
+
+              <!-- Used by javadoc:javadoc goal -->
+              <doctitle>${project.name} v${project.version} API Javadocs</doctitle>
+              <windowtitle>${project.name} v${project.version} API Javadocs</windowtitle>
+              <!-- Used by javadoc:test-javadoc goal -->
+              <testdoctitle>${project.name} v${project.version} Test API
+                Javadocs</testdoctitle>
+              <testwindowtitle>${project.name} v${project.version} Test API
+                Javadocs</testwindowtitle>
+              <show>private</show>
+              <use>true</use>
+              <splitindex>true</splitindex>
+              <stylesheet>maven</stylesheet>
+              <linksource>true</linksource>
+              <encoding>${project.build.sourceEncoding}</encoding>
+              <docencoding>${project.build.sourceEncoding}</docencoding>
+              <charset>${project.build.sourceEncoding}</charset>
+              <verbose>true</verbose>
+              <header>&lt;b>JQuantLib &lt;/b>&lt;font
+                size="-1">v${project.version} API Javadocs&lt;/font></header>
+              <bottom><![CDATA[
+                                <font size="-1">
+                                <a href="http://bugs.jquantlib.org/">Submit a bug or feature request</a><br/><br/>
+                                JQuantLib is free software: you can redistribute it and/or modify it
+                                under the terms of the JQuantLib license. You should have received a
+                                copy of the license along with this program; if not, please email
+                                mailto:jquant-devel@lists.sourceforge.net. The license is also available online at
+                                <a href="http://www.jquantlib.org/index.php/LICENSE.TXT">http://www.jquantlib.org/index.php/LICENSE.TXT</a>.
+                                </font>
+                            ]]></bottom>
+
+              <!-- links> <link>http://java.sun.com/j2se/6/docs/api/index.html</link> <link>http://www.slf4j.org/apidocs/</link> <link>http://junit.sourceforge.net/javadoc/</link> 
+                </links -->
+
+              <doclet>gr.spinellis.umlgraph.doclet.UmlGraphDoc</doclet>
+              <docletArtifact>
+                <groupId>gr.spinellis</groupId>
+                <artifactId>UmlGraph</artifactId>
+                <version>${umlgraph.version}</version>
+              </docletArtifact>
+
+              <taglets>
+                <taglet>
+                  <tagletClass>net.sf.latextaglet.LaTeXBlockEquationTaglet</tagletClass>
+                  <tagletArtifact>
+                    <groupId>net.sf.latextaglet</groupId>
+                    <artifactId>latextaglet</artifactId>
+                    <version>${latextaglet.version}</version>
+                  </tagletArtifact>
+                </taglet>
+                <taglet>
+                  <tagletClass>net.sf.latextaglet.LaTeXEquationTaglet</tagletClass>
+                  <tagletArtifact>
+                    <groupId>net.sf.latextaglet</groupId>
+                    <artifactId>latextaglet</artifactId>
+                    <version>${latextaglet.version}</version>
+                  </tagletArtifact>
+                </taglet>
+                <taglet>
+                  <tagletClass>net.sf.latextaglet.LaTeXInlineTaglet</tagletClass>
+                  <tagletArtifact>
+                    <groupId>net.sf.latextaglet</groupId>
+                    <artifactId>latextaglet</artifactId>
+                    <version>${latextaglet.version}</version>
+                  </tagletArtifact>
+                </taglet>
+              </taglets>
+              <additionalparam> -inferrel -inferdep -quiet -hide java.*
+                -collpackages java.util.* -qualify -postfixpackage
+                -nodefontsize 9 -nodefontpackagesize 7
+              </additionalparam>
+              <useStandardDocletOptions>true</useStandardDocletOptions>
+            </configuration>
+          </plugin>
+
+        </plugins>
+      </reporting>
+    </profile>
+
+    <profile>
+      <id>with-clirr</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>clirr-maven-plugin</artifactId>
+              <version>${props.maven.clirr-maven-plugin.version}</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+        <plugins>
+                    <!-- plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>enforce-buildNumber</id>
+                                <phase>initialize</phase>
+                                <goals>
+                                    <goal>enforce</goal>
+                                </goals>
+                                <configuration>
+                                    <rules>
+                                        <requireProperty>
+                                            <property>buildNumber</property>
+                                            <message>"Failed to retrieve property: buildNumber"</message>
+                                            <regex>"\d"</regex>
+                                            <regexMessage>"Profile required: with-scm"</regexMessage>
+                                        </requireProperty>
+                                    </rules>
+                                    <fail>true</fail>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin -->
+        </plugins>
+      </build>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>clirr-maven-plugin</artifactId>
+            <version>${props.maven.clirr-maven-plugin.version}</version>
+          </plugin>
+        </plugins>
+      </reporting>
+    </profile>
+
+    <profile>
+      <id>with-cobertura</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>cobertura-maven-plugin</artifactId>
+              <version>${props.maven.cobertura-maven-plugin.version}</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+        <plugins>
+                    <!-- plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>enforce-props.tests.skip</id>
+                                <phase>initialize</phase>
+                                <goals>
+                                    <goal>enforce</goal>
+                                </goals>
+                                <configuration>
+                                    <rules>
+                                        <requireProperty>
+                                            <property>props.tests.skip</property>
+                                            <message>"Failed to retrieve property: props.tests.skip"</message>
+                                            <regex>"false"</regex>
+                                            <regexMessage>"Profile profile: without-tests"</regexMessage>
+                                        </requireProperty>
+                                    </rules>
+                                    <fail>true</fail>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin -->
+        </plugins>
+      </build>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>${props.maven.cobertura-maven-plugin.version}</version>
+          </plugin>
+        </plugins>
+      </reporting>
+    </profile>
+
+    <profile>
+      <id>without-tests</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>properties-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>props.tests.skip</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>set-system-properties</goal>
+                </goals>
+                <configuration>
+                  <properties>
+                    <property>
+                      <name>props.tests.skip</name>
+                      <value>true</value>
+                    </property>
+                  </properties>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+  </profiles>
+
+</project>

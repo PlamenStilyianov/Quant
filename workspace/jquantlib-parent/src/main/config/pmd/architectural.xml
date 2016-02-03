@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<ruleset name="JQuantLib architectural rules">
+	<description>Additional architectural rules needed by JQuantLib</description>
+
+
+
+    <rule name="MultipleTopLevelTypes" 
+          message="Don't use multiple top level classes in a compilation unit" 
+          class="net.sourceforge.pmd.rules.XPathRule">
+        <description>Detects declaration of multiple top level types in a compilation unit</description>
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//CompilationUnit[count(/TypeDeclaration) > 1]
+]]>
+                </value>
+            </property>
+        </properties>
+    </rule>
+    
+    
+    
+    
+	<rule name="NonFinalMethodParameters" message="Method parameters should always be final"
+		class="net.sourceforge.pmd.rules.XPathRule">
+		<description>Detects uses of non final method parameters.
+		</description>
+		<properties>
+			<property name="xpath">
+				<value>
+				<![CDATA[
+          			//FormalParameter[@Final='false']
+                ]]>
+                </value>
+			</property>
+		</properties>
+	</rule>
+
+
+
+
+	<rule name="PackagePrivateClassesNotAcceptable" 
+		  message="Not acceptable package private visibility on class declaration" 
+		  class="net.sourceforge.pmd.rules.XPathRule">
+		<description>Detects package private classes</description>
+		<properties>
+			<property name="xpath">
+				<value>
+<![CDATA[
+//ClassOrInterfaceDeclaration[@PackagePrivate='true' and not(../Annotation/MarkerAnnotation/Name[@Image='PackagePrivate'])]
+]]>
+				</value>
+			</property>
+		</properties>
+		<example>
+<![CDATA[
+// 
+// Classes with explicit package protection are acceptable
+//
+
+private   class Example {...} // it's OK
+
+protected class Example {...} // it's OK
+
+public    class Example {...} // it's OK
+
+@PackagePrivate class Example {...} // it's OK
+
+
+// 
+// Classes without explicit package protection are not acceptable
+// bacause are probably programming mistakes or bad design practices
+//
+
+class Example {...} 
+
+]]>
+		</example>
+	</rule>
+	
+	
+	
+	
+	<rule name="PackagePrivateMethodsNotAcceptable" 
+		  message="Not acceptable package private visibility on method declaration" 
+		  class="net.sourceforge.pmd.rules.XPathRule">
+		<description>Detects package private classes</description>
+		<properties>
+			<property name="xpath">
+				<value>
+<![CDATA[
+//MethodDeclaration[@PackagePrivate='true' and not(../Annotation/MarkerAnnotation/Name[@Image='PackagePrivate'])]
+]]>
+				</value>
+			</property>
+		</properties>
+		<example>
+<![CDATA[
+public class A {
+
+    // 
+    // Methods with explicit package protection are acceptable
+    //
+    private void x() {}
+    protected void y() {}
+    public void w() {}
+    @PackagePrivate void z() {}
+
+    // 
+    // Methods without explicit package protection are not acceptable
+    // bacause are probably programming mistakes or bad design practices
+    //
+    void zz() {}
+}
+]]>
+		</example>
+	</rule>
+	
+	
+	
+	
+	<rule name="PackagePrivateFieldsNotAcceptable" 
+		  message="Not acceptable package private visibility on field declaration" 
+		  class="net.sourceforge.pmd.rules.XPathRule">
+		<description>Detects package private classes</description>
+		<properties>
+			<property name="xpath">
+				<value>
+<![CDATA[
+//FieldDeclaration[@PackagePrivate='true' and not(../Annotation/MarkerAnnotation/Name[@Image='PackagePrivate'])]
+]]>
+				</value>
+			</property>
+		</properties>
+		<example>
+<![CDATA[
+public class A {
+
+    // 
+    // Fields with explicit package protection are acceptable
+    //
+    private double a;
+    public double b;
+    @PackagePrivate double c;
+
+    // 
+    // Fields without explicit package protection are not acceptable
+    // bacause are probably programming mistakes or bad design practices
+    //
+    double cc;
+}
+]]>
+		</example>
+	</rule>
+	
+	
+	
+	
+    <rule name="ColtAllowedPackages" 
+		  message="Only sorting, matrices and functions are allowed from Colt" 
+		  class="net.sourceforge.pmd.rules.XPathRule">
+		<description>Detect uses of cern.colt.list and cern.colt.map packages.</description>
+		<properties>
+			<property name="xpath">
+				<value>
+<![CDATA[
+//ImportDeclaration/Name[not(starts-with(@Image, 'cern.colt.Sorting') or starts-with(@Image, 'cern.colt.matrix.') or starts-with(@Image, 'cern.colt.function.'))]
+]]>
+				</value>
+			</property>
+		</properties>
+		<example>
+<![CDATA[
+// 
+// Colt classes are only used in certain specific situations.
+// Fastutil provides implementations for lists and maps that should be used instead of Colt implementations.
+//
+cern.colt.list.DoubleArrayList list1 = new cern.colt.list.DoubleArrayList(); // don't do this!
+it.unimi.dsi.fastutil.doubles.DoubleArrayList list2 = it.unimi.dsi.fastutil.doubles.DoubleArrayList(); // use fastutil instead
+]]>
+		</example>
+	</rule>
+	
+	
+	
+	
+    <rule name="UsePrimitivesInsteadOfObjects" 
+		  message="Use primitive types instead of Objects" 
+		  class="net.sourceforge.pmd.rules.XPathRule">
+		<description>Use primitive types instead of Objects.</description>
+		<properties>
+			<property name="xpath">
+				<value>
+<![CDATA[
+//ClassOrInterfaceType[
+  @Image='Double' or @Image='java.lang.Double' or
+  @Image='Integer' or @Image='java.lang.Integer' or
+  @Image='Long' or @Image='java.lang.Long' or
+  @Image='Short' or @Image='java.lang.Short' or
+  @Image='Byte' or @Image='java.lang.Byte' or
+  @Image='Character' or @Image='java.lang.Character']
+]]>
+				</value>
+			</property>
+		</properties>
+	</rule>
+
+    <rule name="EnumOrdinalInUse" 
+		  message="Verify use of Enum#ordinal, probably Enum#value is required" 
+		  class="net.sourceforge.pmd.rules.XPathRule">
+		<description>
+	     Most programmers will have no use for this method. It is designed for use by sophisticated enum-based data structures, such  as {@link java.util.EnumSet} and {@link java.util.EnumMap}.
+    	 Pls. check use of ordinal() method, probably value() is required.
+    	</description>
+		<properties>
+			<property name="xpath">
+				<value>
+<![CDATA[
+//Name[
+  contains(@Image, 'ordinal')
+  ]
+]]>
+				</value>
+			</property>
+		</properties>
+	</rule>
+
+
+</ruleset>

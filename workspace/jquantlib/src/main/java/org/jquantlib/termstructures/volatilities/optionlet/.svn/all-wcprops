@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1386/trunk/jquantlib/src/main/java/org/jquantlib/termstructures/volatilities/optionlet
+END
+OptionletVolatilityStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/jquant/!svn/ver/1275/trunk/jquantlib/src/main/java/org/jquantlib/termstructures/volatilities/optionlet/OptionletVolatilityStructure.java
+END
+ConstantOptionletVolatility.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/jquant/!svn/ver/1386/trunk/jquantlib/src/main/java/org/jquantlib/termstructures/volatilities/optionlet/ConstantOptionletVolatility.java
+END

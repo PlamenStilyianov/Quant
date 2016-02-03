@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jquantlib.testsuite.termstructures.TermStructuresTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0 sec

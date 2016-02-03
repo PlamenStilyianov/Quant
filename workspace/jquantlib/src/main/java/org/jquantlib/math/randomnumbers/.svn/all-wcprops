@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1446/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers
+END
+PrimitivePolynomials.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1149/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/PrimitivePolynomials.java
+END
+PseudoRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/PseudoRandom.java
+END
+RandomNumberGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/921/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/RandomNumberGenerator.java
+END
+RandomSequenceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/RandomSequenceGenerator.java
+END
+UniformRandomSequenceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/jquant/!svn/ver/932/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/UniformRandomSequenceGenerator.java
+END
+InverseCumulativeRng.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1158/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/InverseCumulativeRng.java
+END
+RandomSequenceGeneratorIntf.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/jquant/!svn/ver/1132/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/RandomSequenceGeneratorIntf.java
+END
+GenericLowDiscrepancy.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/GenericLowDiscrepancy.java
+END
+MersenneTwisterUniformRng.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/jquant/!svn/ver/1203/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/MersenneTwisterUniformRng.java
+END
+InverseCumulativeRsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1158/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/InverseCumulativeRsg.java
+END
+SeedGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1158/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/SeedGenerator.java
+END
+InverseCumulative.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1115/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/InverseCumulative.java
+END
+SobolRsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/SobolRsg.java
+END
+GenericPseudoRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1446/trunk/jquantlib/src/main/java/org/jquantlib/math/randomnumbers/GenericPseudoRandom.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals
+END
+GaussKronrodAdaptive.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/GaussKronrodAdaptive.java
+END
+GaussKronrodPatterson.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/GaussKronrodPatterson.java
+END
+KronrodIntegral.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/KronrodIntegral.java
+END
+TrapezoidIntegral.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/TrapezoidIntegral.java
+END
+SegmentIntegral.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/SegmentIntegral.java
+END
+GaussKronrodNonAdaptive.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/GaussKronrodNonAdaptive.java
+END
+Integrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/Integrator.java
+END
+SimpsonIntegral.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1302/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/SimpsonIntegral.java
+END
+TabulatedGaussLegendre.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/integrals/TabulatedGaussLegendre.java
+END

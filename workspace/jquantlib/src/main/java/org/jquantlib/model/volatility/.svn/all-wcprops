@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility
+END
+VolatilityCompositor.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/VolatilityCompositor.java
+END
+ConstantEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/ConstantEstimator.java
+END
+LocalVolatilityEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/LocalVolatilityEstimator.java
+END
+GarmanKlassSigma1.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassSigma1.java
+END
+ParkinsonSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jquant/!svn/ver/1326/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/ParkinsonSigma.java
+END
+Garch11.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/Garch11.java
+END
+GarmanKlassAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassAbstract.java
+END
+GarmanKlassSigma3.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassSigma3.java
+END
+GarmanKlassSigma4.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1323/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassSigma4.java
+END
+GarmanKlassSigma5.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1323/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassSigma5.java
+END
+GarmanKlassSigma6.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassSigma6.java
+END
+GarmanKlassOpenClose.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassOpenClose.java
+END
+SimpleLocalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/SimpleLocalEstimator.java
+END
+GarmanKlassSimpleSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/jquant/!svn/ver/1323/trunk/jquantlib/src/main/java/org/jquantlib/model/volatility/GarmanKlassSimpleSigma.java
+END

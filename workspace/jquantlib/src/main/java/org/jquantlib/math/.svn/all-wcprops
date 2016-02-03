@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jquant/!svn/ver/1446/trunk/jquantlib/src/main/java/org/jquantlib/math
+END
+ErrorFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1122/trunk/jquantlib/src/main/java/org/jquantlib/math/ErrorFunction.java
+END
+Ops.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jquant/!svn/ver/1338/trunk/jquantlib/src/main/java/org/jquantlib/math/Ops.java
+END
+PdeShortRate.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jquant/!svn/ver/294/trunk/jquantlib/src/main/java/org/jquantlib/math/PdeShortRate.java
+END
+Factorial.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/Factorial.java
+END
+IntervalPrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jquant/!svn/ver/1439/trunk/jquantlib/src/main/java/org/jquantlib/math/IntervalPrice.java
+END
+PrimeNumbers.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1322/trunk/jquantlib/src/main/java/org/jquantlib/math/PrimeNumbers.java
+END
+Beta.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/Beta.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1370/trunk/jquantlib/src/main/java/org/jquantlib/math/Constants.java
+END
+RegularisedIncompleteBeta.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/RegularisedIncompleteBeta.java
+END
+AbstractSolver1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/AbstractSolver1D.java
+END
+Grid.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/Grid.java
+END
+Rounding.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/Rounding.java
+END
+LogGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jquant/!svn/ver/1123/trunk/jquantlib/src/main/java/org/jquantlib/math/LogGrid.java
+END
+SampledCurve.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jquant/!svn/ver/1409/trunk/jquantlib/src/main/java/org/jquantlib/math/SampledCurve.java
+END
+TransformedGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jquant/!svn/ver/1148/trunk/jquantlib/src/main/java/org/jquantlib/math/TransformedGrid.java
+END
+Closeness.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jquant/!svn/ver/1325/trunk/jquantlib/src/main/java/org/jquantlib/math/Closeness.java
+END
